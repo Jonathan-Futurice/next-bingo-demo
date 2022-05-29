@@ -5,7 +5,7 @@ export default class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head></Head>
-        <body>
+        <body className={"p-1"}>
           <Main />
           <NextScript />
         </body>

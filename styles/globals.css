@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.box {
+  @apply border-4
+    h-24
+    rounded;
+}
